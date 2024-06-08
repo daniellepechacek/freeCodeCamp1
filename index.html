@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Photo App</title>
+</head>
+<body>
+    <main>
+        <h1>Travel Photo App</h1>
+        <section>
+            <h2>Travel Photos</h2>
+            <!--TODO: This is a comment Add link to photos-->
+        <p>View more <a target="_blank" href="https://www.istockphoto.com/search/2/image?family=creative&phrase=travel">travel photos</a> in the gallery.</p>
+        <a href="https://www.istockphoto.com/vector/digital-hand-set-location-on-map-with-two-pins-ai-technology-in-gps-innovation-gm1511168262-523912451"><img src="./travel1.jpg" alt="digital pinpoint"></a>
+        </section>
+
+        <section>
+            <h2>Travel lists</h2>
+            <h3>Places to travel to:</h3>
+            <ul>
+                <li>Europe</li>
+                <li>Asia</li>
+                <li>Africa</li>
+                <li>North America</li>
+                <li>South America</li>
+                <li>Australia</li>
+                <li>Antarctica</li>
+            </ul>
+            <figure>
+                <img src="./world.jpg" alt="green earth illustration with plants and hearts">
+                    <figcaption>The world is your <em>oyster.</em></figcaption>
+            </figure>
+            <h3>Top Destinations</h3>
+            <ol>
+                <li>Lisbon, Portugal</li>
+                <li>Phuket, Thailand</li>
+                <li>New York City, USA</li>
+                <li>Mount Kilimanjaro, Tanzania</li>
+            </ol>
+            <figure>
+                <img src="./lisbon.jpg" alt="Eduardo VII Park in Lisbon, Portugal">
+                <figcaption>One of Portugal's most famous attraction is the <strong>Eduardo VII Park.</strong></figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Travel Form</h2>
+            <form action="/submit-url">
+                <fieldset>
+                    <legend>Where are you interested in travelling to?</legend>
+                        <label><input id="Asia" type="radio" name="continent" value="Asia" checked> Asia</label>
+                        <label><input id="Australia" type="radio" name="continent" value="Australia">Australia</label>
+                        <label><input id="Africa" type="radio" name="continent" value="Africa"> Africa</label>
+                        <label><input id="North America" type="radio" name="continent" value="North America"> North America</label>
+                        <label><input id="South America" type="radio" name="continent" value="South America"> South America</label>
+                        <label><input id="Antarctica" type="radio" name="continent" value="Antarctica">Antarctica</label>
+                  </fieldset>
+                  
+                  <fieldset>
+                    <legend>What are you looking forward to when travelling?</legend>
+                    <input id="food" type="checkbox" name="reason" value="food" checked> <label for="food">Try the local cuisine</label>
+                    <input id="sites" type="checkbox" name="reason" value="sites"> <label for="sites">Sight-seeing</label>
+                    <input id="history" type="checkbox" name="reason" value="history"> <label for="history">Explore historical sites</label>
+                    <input id="people" type="checkbox" name="reason" value="people"> <label for="people">Meet new people</label>
+                    <input id="shopping" type="checkbox" name="reason" value="shopping"> <label for="shopping">Shopping</label>
+                    <input id="culture" type="checkbox" name="reason" value="culture"> <label for="culture">Experience the culture</label>
+                  </fieldset>
+                  <button type="submit">Submit</button>
+                  </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+        </p>
+
+    </footer>
+</body>
+</html>
